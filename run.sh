@@ -8,10 +8,10 @@
 
 #install obsidian theme
 git clone https://github.com/hmrserver/Obsidian.git /tmp/obsidian \
-    && mv -f /tmp/obsidian/themes /tmp/extras \
+    && cp -r /tmp/obsidian/themes /tmp/extras \
     && rm -rf /tmp/obsidian
 	
 #install flat theme
 git clone https://github.com/hmrserver/Flat.git /tmp/flat \
-    && mv -f /tmp/flat/themes /tmp/extras \
+    && cp -r /tmp/flat/themes /tmp/extras \
     && rm -rf /tmp/flat
