@@ -8,5 +8,5 @@
 
 #install obsidian theme
 git clone https://github.com/hmrserver/Obsidian.git /tmp/obsidian \
-    && mv /tmp/obsidian/themes $EXTRAS_FOLDER \
+    && mv /tmp/obsidian/themes "$EXTRAS_FOLDER" \
     && rm -rf /tmp/obsidian
